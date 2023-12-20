@@ -1,0 +1,134 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header container */
+.header-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column; /* Stack text and image vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.restaurants {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+/* Restaurant cards */
+.ImmThai, .PlenTea, .Mezzos {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack text and image vertically */
+    justify-content: flex-start; /* Center text at the top */
+    align-items: center; /* Center content horizontally */
+    padding: 20px;
+    height: 460px; /* Remove fixed height to allow content to dictate height */
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0; /* Add margin to the text */
+}
+
+img {
+    width: 200px;
+    height: 200px; /* Set a fixed square size */
+    object-fit: cover; /* Maintain aspect ratio and fill the square */
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px; /* Add rounded edges to images */
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .ImmThai, .PlenTea, .Mezzos {
+        width: 30%;
+    }
+}
+
+/* Homepage container */
+.home-page {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff; /* Add a background color for the homepage */
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Homepage title */
+.home-page h1 {
+    color: #333;
+    font-size: 36px; /* Increase the font size for the homepage title */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+/* Homepage about section */
+.about {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Increase font size for the about section text */
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.lynn, .charlie, .saiyra {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack text and image vertically */
+    justify-content: flex-start; /* Center text at the top */
+    align-items: center; /* Center content horizontally */
+    padding: 20px;
+    width: 30%;
+    height: 370px; /* Remove fixed height to allow content to dictate height */
+}
+

@@ -1,0 +1,19 @@
+/* DarkModeButton.css */
+.dark-mode-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dark-mode-button.dark {
+    background-color: #333;
+    color: white;
+  }
+  
+  .dark-mode-button.light {
+    background-color: #eee;
+    color: black;
+  }
